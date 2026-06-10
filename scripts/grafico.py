@@ -9,5 +9,5 @@ sns.countplot(x = "Sex", hue = "Survived", data = datos, ax = ax)
 fig.savefig("plot.png")
 
 fig, ax = plt.subplots()
-sns.countplot(x = "Pclass", hue = "Survived", data = datos, ax = ax)
+sns.countplot(x = "Sex", hue = "Pclass", data = datos, ax = ax)
 fig.savefig("plot2.png")
